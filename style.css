@@ -170,13 +170,16 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://github.com/samir5188/3rd/blob/main/Images/darjeeling.jpg?raw=true") no-repeat center;
+    background: url("https://github.com/basanteygautam/portfolio-website/blob/main/images/IMG_20231223_135841.jpg?raw=true") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 300px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+}
+.text-2{
+    color: rgba(56, 56, 249, 0.95);
 }
 .home .max-width{
   width: 100%;
@@ -226,16 +229,16 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 17px;
+    height: 60%;
+    width: 60%;
+    object-fit:fill;
+    border-radius:5px;
 }
 .about .about-content .right{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 25px;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -616,8 +619,13 @@ footer span a:hover{
     .about .about-content .column{
         width: 100%;
     }
+    .about .about-content .left img{
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+    }
     .about .about-content .left{
-        display: flex;
+        display:flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
@@ -637,7 +645,7 @@ footer span a:hover{
 
 @media (max-width: 690px) {
     .max-width{
-        padding: 0 23px;
+        padding: 0 30px 39px;
     }
     .home .home-content .text-2{
         font-size: 60px;
